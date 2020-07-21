@@ -5,11 +5,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -s ./.storybook/public -p 55555"
   },
   "dependencies": {
+    "@next/plugin-storybook": "^9.4.4",
+    "@storybook/addon-backgrounds": "^5.3.19",
+    "@storybook/addon-controls": "^6.0.0-beta.15",
+    "@storybook/addon-docs": "^6.0.0-rc.13",
+    "@storybook/addon-viewport": "^5.3.19",
+    "@storybook/react": "^6.0.0-rc.13",
+    "babel-loader": "^8.1.0",
     "next": "9.4.4",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-is": "^16.13.1"
   }
 }
